@@ -1,0 +1,30 @@
+{
+  "name": "convert-imports",
+  "version": "1.0.0",
+  "description": "A **zero-dependency [Node.js](https://nodejs.org/)** script that automatically converts **relative import paths**   (e.g., `../../utils/helpers`) to **alias-based imports** (e.g., `@/utils/helpers`) in **any JavaScript/TypeScript project**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshikamal/convert-imports.git"
+  },
+  "type": "module",
+  "bin": {
+    "convert-imports": "./index.js"
+  },
+  "keywords": [
+    "imports",
+    "alias",
+    "cli",
+    "typescript",
+    "javascript"
+  ],
+  "author": "Kamal Joshi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshikamal/convert-imports/issues"
+  },
+  "homepage": "https://github.com/joshikamal/convert-imports#readme"
+}
